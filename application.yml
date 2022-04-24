@@ -5,14 +5,14 @@ token:
 gateway:
   ip: 127.0.0.1
   
-#  cloud:
-#   aws:
-#     s3:
-#       bucket: capstone-taekang-bucket
-#     credentials:
-#       access-key: '{cipher}AQA2IbtVoIsMaUmudUwljvWvsaMJSKlJaNDNWDn2PknrYLYcRCNguXAo6mV6XwpsLRcca8AyfBnkPPfBkWkIbZmWBvlBhJszbdgS+L2nxoC+oTTQR/FMXuCqivRAfxtBEATPQLMWbDlLWWx6Ca3oZgAt8yvjmsYn7aObMXVrPUBqQbOoBXQryG6+5IYvAIOnoWXRsRYEQZbmyfWGuQO31rlJQBZ1+9cAUoUS6ajGrgRev3OVcqGu1c5OsOiahdm5SJ9mNjwjsUAVenjwW41jBsJ5++6pkXR+nIJBa67W/5t9cjTNukEQIt8OqYYAhwiswVJnBVbP3pC9V1MxPUffCmhATrB9Juf2lcxMvmSuE4ek4fjg62WXqFKr+vHKfl5jhH0FswR4dIf0e+c3v7j+6W+l'
-#       secret-key: '{cipher}AQAYMa9oh5sx8mAl3FpddVLR/5/dBjtFh0MIGrTIhVrs0uVzTidNNsQgixzoeH/c7w3RRWYX7dUu/gfjs9yYOweb9yBHPRuDn3dAAh1uANzsF/9MEaXSoWisZPCM92nkRr82C55FOnXEbgMGEChmMpCzupBhafCmrC7up+evPLXJys5j0hhLNMJV/2XcLLN/DjEN8dTVLEn+3QTGueobWnpgZkRnLCLkb7dwV97k5HuPCOyHOuyFS7EZScuI5bbXauz6fVQVv7Clo4upePOwPQ3pav0wDIEzvSaYCne9EdXNepJGySFZtEkpRg8kqFr/p/L0SiH6iv7oP25I3cqipDOb+Ii+acpkGzN5abkrB4/XS0ae4eFt7WOsTwn732Ubk11hLwhutpVUmUP3DZwkK7nxfgD7Ei27Qn874wc0DXxKkA=='
-#     region:
-#       static: ap-northeast-2
-#     stack:
-#       auto: false
+ cloud:
+  aws:
+    s3:
+      bucket: capstone-taekang-bucket
+    credentials:
+      access-key: '{cipher}AQCtOWP4gd+IusASAneYOQnT6gDXv6PJGg3fdfu9EuRs4MdBztWYiFb7yjDVU0KqeWoGA1E00qnJR5rTnPkimOLPXThk4izc5OoGBSocgjtNEtfjvTNEZ/Bb/K2hLKCtgTENePf9YIk5zeFRn0i7qFwHCnMrdYxRC0bEXb/kesTggfsFMA45kH2UvRiHVTDFjgRN4uHade0HTQC+6Palvh575MGj3D3ADdP7z4X7ooudhPN2zjaTHfDeryNTzqyfSb+bUT8pnmFOKIZQ4T7f1QKL2VqeUQfqffRRcTqpcLI76Tn1JKyFqAuideXp5n1iI7eVZ3QnowIv0E1zAPjKewhWFU7lUeX9/uCxoDWl4peTZH9do+OTJXOzf0aQ9pZUwMUjGXcNSd1JHA6bJvIK5YEU'
+      secret-key: '{cipher}AQCEFthLktn6HatFPXTNVFFrvFDNOMeWQsCwXOWU/EXW0VF6ZRz7XX2alNC75Lf3xVILZi3rBMVyoFanMm/1Nz9POInK05YZigVJtE78FjTM1CMDYDqk9afatbQ3xV4rOCpOrog3PhJG9Pox73VH5TrHVu8G0cvSXiWBWu/X3bF2y61MmfdGl+elRHViqpk56HFWrq6b2hVDFbstuiWh/fxfT5HDp7ZAEdxtIyFmc2rntmBddGKwgELqIbp1UTkcEUxPLv4vN4JXVamCp9hUfblBQwAIB+pd1zxmRXGIiqc6ZvFskKsF3gW5DZ+NzmFd7hRASZmrUca7NIz4zvIHHZ6Y56aLWC7c6E1zvRjg/WVAOs4RRPNT+BQPpTh7vcDmXkVskY9vphdX6qyQjfg1B1dp+ahMbse+aKV05UPeue2SlA=='
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false
