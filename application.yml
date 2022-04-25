@@ -5,14 +5,14 @@ token:
 gateway:
   ip: 127.0.0.1
   
-#  cloud:
-#   aws:
-#     s3:
-#       bucket: capstone-taekang-bucket
-#     credentials:
-#       access-key: '{cipher}AQCtOWP4gd+IusASAneYOQnT6gDXv6PJGg3fdfu9EuRs4MdBztWYiFb7yjDVU0KqeWoGA1E00qnJR5rTnPkimOLPXThk4izc5OoGBSocgjtNEtfjvTNEZ/Bb/K2hLKCtgTENePf9YIk5zeFRn0i7qFwHCnMrdYxRC0bEXb/kesTggfsFMA45kH2UvRiHVTDFjgRN4uHade0HTQC+6Palvh575MGj3D3ADdP7z4X7ooudhPN2zjaTHfDeryNTzqyfSb+bUT8pnmFOKIZQ4T7f1QKL2VqeUQfqffRRcTqpcLI76Tn1JKyFqAuideXp5n1iI7eVZ3QnowIv0E1zAPjKewhWFU7lUeX9/uCxoDWl4peTZH9do+OTJXOzf0aQ9pZUwMUjGXcNSd1JHA6bJvIK5YEU'
-#       secret-key: '{cipher}AQCEFthLktn6HatFPXTNVFFrvFDNOMeWQsCwXOWU/EXW0VF6ZRz7XX2alNC75Lf3xVILZi3rBMVyoFanMm/1Nz9POInK05YZigVJtE78FjTM1CMDYDqk9afatbQ3xV4rOCpOrog3PhJG9Pox73VH5TrHVu8G0cvSXiWBWu/X3bF2y61MmfdGl+elRHViqpk56HFWrq6b2hVDFbstuiWh/fxfT5HDp7ZAEdxtIyFmc2rntmBddGKwgELqIbp1UTkcEUxPLv4vN4JXVamCp9hUfblBQwAIB+pd1zxmRXGIiqc6ZvFskKsF3gW5DZ+NzmFd7hRASZmrUca7NIz4zvIHHZ6Y56aLWC7c6E1zvRjg/WVAOs4RRPNT+BQPpTh7vcDmXkVskY9vphdX6qyQjfg1B1dp+ahMbse+aKV05UPeue2SlA=='
-#     region:
-#       static: ap-northeast-2
-#     stack:
-#       auto: false
+ cloud:
+  aws:
+    s3:
+      bucket: capstone-taekang-bucket
+    credentials:
+      access-key: '{cipher}d66a1261587f4fdc4d554a1d861740cd404a37f32fe7299f856a6e6c26c4138ccd5e35fe41789f97bedf985f03a46a02'
+      secret-key: '{cipher}4012fe90fb20c35ea8fe0f160bd3cbb61eef02b0d067d00119fe061db5fb484bbe9e4ec9a8dbaa6c08e7b0dcc1c127ab7e9e8f0f30909ba439db52800a202cb5'
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false
