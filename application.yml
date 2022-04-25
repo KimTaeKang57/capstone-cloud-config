@@ -5,14 +5,14 @@ token:
 gateway:
   ip: 127.0.0.1
   
- cloud:
-  aws:
-    s3:
-      bucket: capstone-taekang-bucket
-    credentials:
-      access-key: '{cipher}d66a1261587f4fdc4d554a1d861740cd404a37f32fe7299f856a6e6c26c4138ccd5e35fe41789f97bedf985f03a46a02'
-      secret-key: '{cipher}4012fe90fb20c35ea8fe0f160bd3cbb61eef02b0d067d00119fe061db5fb484bbe9e4ec9a8dbaa6c08e7b0dcc1c127ab7e9e8f0f30909ba439db52800a202cb5'
-    region:
-      static: ap-northeast-2
-    stack:
-      auto: false
+#  cloud:
+#   aws:
+#     s3:
+#       bucket: capstone-taekang-bucket
+#     credentials:
+#       access-key: '{cipher}d66a1261587f4fdc4d554a1d861740cd404a37f32fe7299f856a6e6c26c4138ccd5e35fe41789f97bedf985f03a46a02'
+#       secret-key: '{cipher}4012fe90fb20c35ea8fe0f160bd3cbb61eef02b0d067d00119fe061db5fb484bbe9e4ec9a8dbaa6c08e7b0dcc1c127ab7e9e8f0f30909ba439db52800a202cb5'
+#     region:
+#       static: ap-northeast-2
+#     stack:
+#       auto: false
